@@ -15,5 +15,6 @@
   <%= simple_form_for @list do |f| %>
     <%= f.input :name %>
     <%= f.submit "add a List", class: "btn btn-warning" %>
+    <%= f.input :photo, as: :file %>
   <% end %>
 </div>
